@@ -14,5 +14,3 @@ I remind you that this script is 90% finished, you have to finish it!
 **But they worked on it voluntarily** :laughing:
 
 Preview :camera:: https://streamable.com/sy32fg
-
-Download : 
