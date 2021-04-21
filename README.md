@@ -6,7 +6,7 @@ Hello, I took back an old script of PoliceForm for a server but the design did n
 ah yes I forgot to change the variables of the webhook if by chance an angel could make it work and to make a pull request that could help certain in short voila Good evening has you!
 
 
-# Any Question ? Doublox#9803 But NOT SUPPORT ! :D 
+# Any Question ? Doublox#9803 But NOT SUPPORT ! :/
 
 
 [Version of without modification](https://forum.cfx.re/t/release-application-police-form/1918729) (FiveM)
