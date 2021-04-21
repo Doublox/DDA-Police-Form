@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css"><!-- Doublox#9803 -->
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet"><!-- Doublox#9803 -->
+	</head>
+	<body>
+<!-- Doublox#9803 -->
+		<div id="container">
+			<img class="logo" alt="lspd" style="transform:scale(9); padding-bottom:10px;" src="https://i.imgur.com/WHklfMw.png">
+			<div id="startscreen" class="zomba">
+				<!-- Doublox#9803 -->
+				<!--<img class="logo" alt="lspd" src="https://static.wikia.nocookie.net/gta/images/5/5e/Sceau-lspd-gtav.png/revision/latest?cb=20140916194909&path-prefix=fr">-->
+				<div class="all">
+				<label class="label">Prénom :</label>
+				<input id="ft" type="text" placeholder="Ecrivez ici" class="input"><br>
+				<label class="label1">Nom de Famille :</label>
+				<input id="ln" type="text" placeholder="Ecrivez ici" class="input"><br>
+				<label class="label1">Date Anniversaire :</label>
+				<input id="date" type="date" placeholder="Ecrivez ici" class="input"><br>
+				<label style="margin-top:-28.5%;" class="label3">Ajouter une déscription :</label>
+				<textarea style="margin-top:-8.5%; left:65%;resize: none;"id="reason"type="text" type="textarea" placeholder="Racontez votre vie" class="why" ></textarea><br>
+				<label style="margin-top:-4%;" class="label1">Photo d'Identité URL</label>
+<!-- Doublox#9803 -->
+				<input id="myImg"style="margin-top:-1.0%;" type="text"  class="input"><br>
+
+				<button class="sumbit" id="sumbit2">Envoyer</button>
+				<button class="button" id="back2">Retour</button>
+				<strong class="warn"  style="margin-top:-1%;" id="warn1">Veuillez remplir toutes les informations</strong>
+				</div>
+			</div><!-- Doublox#9803 -->
+
+			<div class="buttonsopen" style="display: none;">
+				<!-- <button style="margin-top:-10%;" class="button" id="complaint">Transmettre une plainte</button> -->
+
+				<button style="margin-top:-5%;" class="button" id="Form">Recrutement LSPD</button>
+
+			</div>	
+
+			<!-- Filing a complaint -->
+			<!-- <div id="complaintinfo" style="display: none;">
+				<label class="label">Prénom</label>
+				<input id="ft" type="text" placeholder="Ecrivez ici" class="input"><br>
+				<label class="label1">Nom de Famille</label>
+				<input id="ln" type="text" placeholder="Ecrivez ici" class="input"><br>
+				<label class="label1">Date Anniversaire</label>
+				<input id="date" type="date" placeholder="Ecrivez ici" class="input"><br>
+				<label style="margin-top:-28.5%;" class="label3">Ajouter une description:</label>
+				<textarea style="margin-top:-8.5%;resize: none;"id="reason"type="text" type="textarea" placeholder="....." class="why" ></textarea><br>
+				<label style="margin-top:-4%;" class="label1">Photo d\'Identité URL</label>
+
+				<input id="myImg"style="margin-top:-1.0%;" type="text"  class="input"><br>
+
+				<button class="sumbit" id="sumbit2">Envoyer</button>
+				<button class="button" id="back2">Retour</button>
+				<strong class="warn"  style="margin-top:-1%;" id="warn1">Veuillez remplir toutes les informations</strong>
+
+
+			</div> -->
+			
+			<!-- Form -->
+
+
+
+			<div id="info" style="display: none;">
+				
+				<label class="label">Prénom</label><!-- Doublox#9803 -->
+				<input id="firstname" type="text" placeholder="Ecrivez ici" class="input"  required="true" name="need" ><br>
+				<label class="label1">Nom de Famille</label><!-- Doublox#9803 -->
+				<input id="lastname" type="text" placeholder="Ecrivez ici" class="input"  required="true" name="need" ><br>
+				<label class="label2">Date Anniverssaire</label><!-- Doublox#9803 -->
+				<input id="age" type="number" placeholder="Ecrivez ici" class="input"  required="true" name="need" ><br>
+				<label class="label3">Pourquoi voulez-vous intégrer la LSPD ?</label><!-- Doublox#9803 -->
+				<textarea id="why"type="text" type="textarea" placeholder="Ecrivez ici" class="why"  required="true"  style="outline:none;resize: none;" name="need"></textarea><br>
+				<label class="label4">Sexe ci dessous:</label><!-- Doublox#9803 -->
+<!-- Doublox#9803 -->
+				<select  class="Sexe" id="gender" required="true">
+					<option value="Male">Homme</option>
+					<option value="Female">Femme</option>
+				</select>
+
+<!-- Doublox#9803 -->
+				<strong class="warn"  id="warn">Veuillez remplir toutes les informations</strong>
+				<button class="sumbit" id="sumbit">Envoyer</button>
+				<button  class="button" id="back">Retour</button><!-- Doublox#9803 -->
+
+			</div>
+<!-- Doublox#9803 -->
+			<!-- Done -->
+
+			<div id="done" style="display:none;">
+				<strong class="thanks">Merci</strong>
+				<button class="exit" id="exit">Aurevoir</button><!-- Doublox#9803 -->
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script><!-- Doublox#9803 -->
+	</body>
+</html>
