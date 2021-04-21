@@ -22,7 +22,7 @@ But DLAV and Ademo worked on it voluntarily :laughing:
 
 And thanks to RickAn For sharing this resource 
 
-Preview :camera:: https://streamable.com/sy32fg
+:camera: Preview :camera:: https://streamable.com/sy32fg
 
 # Any Question ? Doublox#9803 But NOT SUPPORT ! :D 
 
