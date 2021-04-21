@@ -13,7 +13,7 @@ $(function () {
 
             
 
-            // Doublox#9803// Doublox#9803
+            // Doublox#9803
         } else {
             $("#container").hide();
         }
