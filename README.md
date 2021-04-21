@@ -1,3 +1,6 @@
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDoublox%2FDDA-Police-Form&count_bg=%233D71C8&title_bg=%23434040&icon=&icon_color=%23FF0101&title=hits&edge_flat=true"/></a>
+
+
 ## A Police Form For FiveM  (I think the policeform is standalone)
 
 ### Description :
